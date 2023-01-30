@@ -31,7 +31,7 @@ wp_login <- function(usr, pswd){
 
 
 
-# replace port excerpts
+# replace post excerpts
 replace_excerpt <- function(page_url){
   print(paste0("Currently editing page: ", page_url)) # print current url
   url <- page_url
